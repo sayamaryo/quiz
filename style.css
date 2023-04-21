@@ -1,0 +1,35 @@
+main {
+    margin: 32px auto 0;
+    width: 320px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+h2 {
+    font-size: 24dpx;
+}
+
+li {
+cursor: pointer;
+}
+
+.correct {
+    color: green;
+}
+
+.correct::after {
+    content: '- 正解！';
+}
+
+.wrong {
+    color: red;
+}
+
+.wrong::after {
+    content: '- 不正解...';
+}
